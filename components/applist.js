@@ -13,7 +13,7 @@ export class TodoAppList extends React.Component {
 
     render() {
         var items = this.props.tasks.map((elem, i) => {
-         return <li key={i}><span>{elem}</span><button onClick={this.remove}>X</button></li>
+         return <ul key={i}><span>{elem}</span><button onClick={this.remove}>X</button></ul>
          });
         return (
            <ul>

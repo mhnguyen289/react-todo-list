@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Todo} from './components/main'
+import {Todo} from './components/main';
+
+
 
 var tasksList = ["task 1", "task2", "task3"];
 
